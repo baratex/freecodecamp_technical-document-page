@@ -117,4 +117,9 @@ p {
   nav{
     justify-content:center;
   }
+ 
+   section header {
+    text-align:center;
+    margin-left: 0;
+  }
 }
