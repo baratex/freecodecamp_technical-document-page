@@ -124,7 +124,6 @@ p {
     padding-left:0;
     justify-content:space-between;
   }
-<<<<<<< HEAD
 
   .titulo{
     position: relative;
@@ -206,11 +205,9 @@ p {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-=======
+
  
    section header {
     text-align:center;
     margin-left: 0;
   }
-}
->>>>>>> ab2b7710d7c9fb77dc94ab7afa9f30866f799a49
