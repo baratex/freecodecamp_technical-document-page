@@ -27,7 +27,7 @@ nav{
 
 nav ul{
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   flex-wrap: wrap;
   align-items: center;
   padding-inline-start: 0;
@@ -38,8 +38,6 @@ nav ul{
 
 nav > ul > li {
   color: #ffb138;
-  margin: 0 0.2rem;
-  padding: 0.2rem;
   display: block;
   font-weight: bold;
   text-shadow:0 0 2px #000;
@@ -52,7 +50,7 @@ nav > ul > li:last-of-type {
 nav > ul > li:hover {
   background-color: #ffb138;
   color: #921e2a;
-  padding:16px 5px 16px 5px;
+  padding:16px 0px 16px 0px;
   cursor: pointer;
   text-shadow:none;
 
@@ -61,6 +59,7 @@ nav > ul > li:hover {
 li > a {
   color: inherit;
   text-decoration: none;
+  padding:16px 10px 16px 10px;
 }
 
 .titulo {
@@ -124,7 +123,6 @@ p {
     padding-left:0;
     justify-content:space-between;
   }
-<<<<<<< HEAD
 
   .titulo{
     position: relative;
@@ -137,6 +135,14 @@ p {
   section header {
     text-align:center;
     margin-left: 0 !IMPORTANT;
+  }
+
+  section{
+    margin:30px 20px -60px 20px;
+  }
+
+  .prod, .tabuleiro {
+    width:90%;
   }
 
   .dropdown .dropbtn{
@@ -158,10 +164,6 @@ p {
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0px; /* Important for vertical align on mobile phones */
   text-shadow:
-    1px 0 #000000, 
-    0px 1px #000000, 
-    -1px 0 #000000, 
-    0 -1px #000000,
     1px 1px #000000,
     1px 1px #000000,
     1px -1px #000000,
@@ -206,11 +208,4 @@ p {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-=======
- 
-   section header {
-    text-align:center;
-    margin-left: 0;
-  }
-}
->>>>>>> ab2b7710d7c9fb77dc94ab7afa9f30866f799a49
+
